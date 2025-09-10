@@ -156,7 +156,7 @@
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Date: [Current Date]"
+            android:text="Date: September 10, 2025"
             android:textSize="14sp"
             android:textColor="@android:color/black"
             android:layout_marginBottom="16dp" />
