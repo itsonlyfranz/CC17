@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEARNING CONTRACT"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:padding="16dp"
+            android:background="@color/light_blue_background" />
+
+        <!-- Section 1: Hindrance -->
+        <TextView
+            android:id="@+id/tv_section1_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. HINDRANCE"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_section1_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Challenges that may affect my learning:\n\n• Poor time management\n• Steep learning course\n• Expensive tuition fee\n• Inattentiveness\n• Lack of confidence for the subject matter"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@color/section_background" />
+
+        <!-- Section 2: Contribution -->
+        <TextView
+            android:id="@+id/tv_section2_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. CONTRIBUTION"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_section2_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My commitment to the learning process:\n\n• Study more\n• Attend classes regularly\n• Be helpful to other students\n• Respecting everyone in the class\n• Submit activities on time and with excellence"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@color/section_background" />
+
+        <!-- Section 3: Expectations -->
+        <TextView
+            android:id="@+id/tv_section3_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. EXPECTATIONS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_section3_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What I expect from this learning experience:\n\n• To learn more about mobile app development\n• My professor will be proficient at the course\n• My student classmates will be helpful\n• To help me in my future career\n• To gain insights and apply my knowledge"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@color/section_background" />
+
+        <!-- Section 4: Motivation -->
+        <TextView
+            android:id="@+id/tv_section4_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. MOTIVATION"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_section4_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What motivates me to learn:\n\n• Family\n• Education\n• Future career\n• Friends\n• Myself"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@color/section_background" />
+
+        <!-- Signature Section -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tv_signature_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENTS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_student_names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Aveo, Jonathan\n• Abba, Jabar\n• Pablo, Señor Roberto Francisco\n• Wigwigan, Aaron James"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="8dp"
+            android:padding="12dp"
+            android:background="@color/section_background" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: [Current Date]"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
